@@ -35,3 +35,11 @@ This object represents the first tidy object
 Next the average values for each subject and activity are calculated.
 This results into "SubjAverage" and "actvAverage" R objects.
 These objects represents the second and third tidy objects.
+
+### Write files
+
+The tidyData is written into files.
+finalSet.txt
+SubjAverage.txt
+actvAverage.txt
+

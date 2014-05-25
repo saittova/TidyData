@@ -59,3 +59,11 @@ actvAverage <- aggregate(actvAverage, by=list(actvAverage[,1]), FUN=mean)
 actvAverage <- actvAverage[,-2]
 colnames(actvAverage) <- c("Activity", "Average")
 
+
+##### Write files
+
+write.table(finalSet, file="finalSet.txt")
+write.table(SubjAverage, file="SubjAverage.txt")
+write.table(actvAverage, file="actvAverage.txt")
+
+
